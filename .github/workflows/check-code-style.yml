@@ -1,5 +1,5 @@
 name: Check code style
-"on": push
+on: [push, pull_request]
 jobs:
   build_and_preview:
     runs-on: ubuntu=latest
